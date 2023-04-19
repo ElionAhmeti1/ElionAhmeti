@@ -1,0 +1,52 @@
+ <!DOCTYPE html>
+<html>
+    <head>
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+	    <title>Feedback Form</title>
+        <link rel = "stylesheet" type = "text/css" href = "feedback.css">
+        <link rel="stylesheet" href="index.js">
+        <script src="https://kit.fontawesome.com/67c66657c7.js"></script>
+
+   </head>
+ <body>
+	<div class="main">
+        <div class="navbar">
+            <div class="icon">
+                <h2 class="logo">ElionAhmeti</h2>
+            </div>
+
+            <div class="menu">
+              <ul>
+                <li><a href="index.html" target="_blank">HOME</a></li>
+                <li><a href="about.html" target="_blank">ABOUT</a></li>
+                <li><a href="index1.html" target="_blank">CONTACT</a></li>
+                <li><a href="assigments.html" target="_blank">ASSIGMENT</a></li>
+            </ul>
+            </div>
+        </div> 
+    </div>
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+</body>
+   <section>
+   </section>
+   <div class="container">
+    <form id="feedback-form">
+      <h1>Contact Me here</h1>
+      <div class="input-container">
+        <input type="text" id="name" placeholder="Full name" required min="5" max="10">
+        <label for="name"><i class="far fa-user"></i></label>
+      </div>
+      <div class="input-container">
+        <input type="email" id="email" placeholder="Email address" required>
+        <label for="email"><i class="far fa-envelope"></i></label>
+      </div>
+      <div class="textarea-container">
+        <textarea id="feedback" placeholder="Your question for us" required></textarea>
+        <label for="feedback"></label>
+      </div>
+      <button type="submit">Send</button>
+    </form>
+  </div>
+  
+   </body>
+</html>
